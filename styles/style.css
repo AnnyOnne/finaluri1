@@ -1,8 +1,8 @@
 .container
-	{background-color: #242F35;
-	height: 77px;}
+	{height: 77px;}
 .main-header
-	{width: 100%;}
+	{width: 100%;
+	background-color: rgba( 36,47,53, 0.8);}
 .main-header .container
 	{display: flex;
 	align-items: center;
@@ -18,7 +18,6 @@ img.elegant-logo
 	{display: inline-block;
 	padding:0 15px;
 	font-family: 'Source Sans Pro Bold',sans-serif;
-	color: #626262;
 	font-size: 15px;}
 .main-header .container nav
 	{position: absolute;
@@ -28,6 +27,12 @@ img.elegant-logo
 	color: #ffffff;}
 .banner-image img
 	{width: 100%;}
+.star-image img
+	{position: absolute;
+		width: 50%;
+	top:20%;
+	left:20%;
+	bottom: auto;}
 .portfolio-text
 	{position: absolute;
 	top:auto;
@@ -42,6 +47,70 @@ img.elegant-logo
 	top:20%;
 	left:20%;
 	bottom: auto;}
+/**2 section**/
+.who 
+	{text-align: center;
+  	padding: 5% 20%; }
+.header
+	{font-family: "Open Sans semibold", sans-serif;
+	font-size: 13px;
+    line-height: 33px;
+    color: #D4AF37;}
+.second-header
+	{font-family: "Open Sans semibold", sans-serif;
+	font-size: 44px;
+    padding-top: 2%;
+    line-height: 33px;
+    color: #021725;}
+.text 
+	{font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    padding-top: 7%;
+    line-height: 33px;
+    color: #021725;}
+.read-more
+	{font-family: "Open Sans", sans-serif;
+	text-decoration: none;
+    font-size: 14px;
+    border: 2px solid #021725;
+	box-sizing: border-box;
+	padding: 3% 8%;
+	margin-top: 45px;
+	margin-left: 30%;
+	height: 60px;
+	width: 280px;}
+.read-more a
+	{text-decoration: none;
+	color: #021725;}
+/**2 section**/
+.what 
+	{text-align: center;
+  	padding: 5% 20%; }
+.header
+	{font-family: "Open Sans semibold", sans-serif;
+	font-size: 13px;
+    line-height: 33px;
+    color: #D4AF37;}
+.second-header
+	{font-family: "Open Sans semibold", sans-serif;
+	font-size: 44px;
+    padding-top: 2%;
+    line-height: 33px;
+    color: #021725;}
+.pictures
+	{display: -webkit-box;display: -ms-flexbox;display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between ;
+	justify-content: flex-end;
+	-ms-flex-wrap:wrap;
+	flex-wrap:wrap;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;}
+/**3 section**/	
+.we
+	{text-align: center;
+  	padding: 5% 20%;}
 
 /**burger**/
 .main-header .burger

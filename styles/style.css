@@ -228,7 +228,101 @@ img.elegant-logo
 .read a
 	{text-decoration: none;
 	color: #021725;}
-
+/**5 section**/
+.contact 
+	{text-align: center;
+  	padding: 5% 20%; }
+.last-gray
+	{width:100%;
+	font-family: "Open Sans", sans-serif;
+	width:770px; 
+	height:415px;
+	margin-left: 2.5%;
+	margin-top: -1%;
+	background-color: #F9F9F9;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+	color: #505D68;}
+.location
+	{font-family: "Open Sans Semibold", sans-serif;
+    font-size: 13px;
+    padding-top: 7%;
+    line-height: 23px;
+    color: #505D68;
+	margin-right: 60%;
+	display: inline-block;}
+.newyork
+	{font-family: "Open Sans Light", sans-serif;
+    font-size: 19px;
+    padding-top: 3%;
+    line-height: 23px;
+    color: #505D68;
+	margin-right: 60%;
+	display: inline-block;}
+.phone
+	{font-family: "Open Sans Semibold", sans-serif;
+    font-size: 13px;
+    padding-top: 7%;
+    line-height: 23px;
+    color: #505D68;
+	margin-left: 60%;
+	display: inline-block;}
+.phone-nomb
+	{font-family: "Open Sans Light", sans-serif;
+    font-size: 19px;
+    padding-top: 3%;
+    line-height: 23px;
+    color: #505D68;
+	margin-left: 60%;
+	display: inline-block;}
+.fax
+	{font-family: "Open Sans Semibold", sans-serif;
+    font-size: 13px;
+    padding-top: 3%;
+    line-height: 23px;
+    color: #505D68;
+    margin-right: 60%;
+	display: inline-block;}
+.fax-nomb
+	{font-family: "Open Sans Light", sans-serif;
+    font-size: 19px;
+    padding-top: 3%;
+    line-height: 23px;
+    color: #505D68;
+    margin-right: 60%;
+	display: inline-block;}
+.email
+	{font-family: "Open Sans Semibold", sans-serif;
+    font-size: 13px;
+    padding-top: 3%;
+    line-height: 23px;
+    color: #505D68;
+    margin-left: 60%;
+	display: inline-block;}
+.email-elegant
+	{font-family: "Open Sans Light", sans-serif;
+    font-size: 19px;
+    padding-top: 3%;
+    line-height: 23px;
+    color: #505D68;
+    margin-left: 60%;
+	display: inline-block;}
+/**footer**/
+.end
+	{background-color: #F0F0F0;
+	height:95px;}
+.end h6 
+	{display: inline-block;
+	font-family: "Open Sans Light", sans-serif;
+	font-size: 16px;
+	padding: 40px 0;}
+.designed
+	{margin-left: 22%;}
+.gmail
+	{margin-left: 62%}
+.end h6 a 
+	{text-decoration: none;
+	color: #505D68;}
 /**burger**/
 .main-header .burger
 	{border: 1px solid blue;

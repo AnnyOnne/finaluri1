@@ -112,18 +112,18 @@ img.elegant-logo
 	{text-align: center;
   	padding: 5% 20%;}
 .image-container
-	{display: inline-block;}
+	{display: inline-block;
+	display: flex;
+	justify-content: space-between;}
 .first
 	{width:245px;
-	height:425px;
-padding-right: 80%;}
+	height:425px;}
 .second
 	{width:245px;
 	height:425px;}
 .third
 	{width:245px;
-	height:425px;
-padding-left: 60%;}
+	height:425px;}
 .image-container .article-item
 	{display: -webkit-box;display: -ms-flexbox;display: flex;
 	-webkit-box-pack: justify;
@@ -184,7 +184,7 @@ padding-left: 60%;}
 .notebook
 	{width:380px;
 	height:390px;
-	margin-right: 50%;}
+	}
 .september
 	{color: #505D68;
 	font-size: 13px;
@@ -201,13 +201,15 @@ padding-left: 60%;}
 	font-family: "Open Sans", sans-serif;
 	width:385px; 
 	height:390px;
-	margin-left: 50%;
 	padding: 30px;
 	top:-5px;
 	background-color: #F9F9F9;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
 	color: #505D68;}
+.notebook-gray
+	{display: inline-block;
+	display: flex;}
 .last-text
 	{font-family: "Open Sans Light", sans-serif;
     font-size: 16px;
@@ -247,80 +249,87 @@ padding-left: 60%;}
 .location
 	{font-family: "Open Sans Semibold", sans-serif;
     font-size: 13px;
-    padding-top: 7%;
+    
     line-height: 23px;
     color: #505D68;
-	margin-right: 60%;
+	
 	display: inline-block;}
 .newyork
 	{font-family: "Open Sans Light", sans-serif;
     font-size: 19px;
-    padding-top: 3%;
     line-height: 23px;
     color: #505D68;
-	margin-right: 60%;
+	
 	display: inline-block;}
 .phone
 	{font-family: "Open Sans Semibold", sans-serif;
     font-size: 13px;
-    padding-top: 7%;
+   
     line-height: 23px;
     color: #505D68;
-	margin-left: 60%;
+	
 	display: inline-block;}
 .phone-nomb
 	{font-family: "Open Sans Light", sans-serif;
     font-size: 19px;
-    padding-top: 3%;
+    
     line-height: 23px;
     color: #505D68;
-	margin-left: 60%;
+	
 	display: inline-block;}
+.location-phone
+	{
+	display: flex;
+justify-content: space-between;}
 .fax
 	{font-family: "Open Sans Semibold", sans-serif;
     font-size: 13px;
-    padding-top: 3%;
+   
     line-height: 23px;
     color: #505D68;
-    margin-right: 60%;
+    
 	display: inline-block;}
 .fax-nomb
 	{font-family: "Open Sans Light", sans-serif;
     font-size: 19px;
-    padding-top: 3%;
+  
     line-height: 23px;
     color: #505D68;
-    margin-right: 60%;
+   
 	display: inline-block;}
 .email
 	{font-family: "Open Sans Semibold", sans-serif;
     font-size: 13px;
-    padding-top: 3%;
+    
     line-height: 23px;
     color: #505D68;
-    margin-left: 60%;
+    
 	display: inline-block;}
 .email-elegant
 	{font-family: "Open Sans Light", sans-serif;
     font-size: 19px;
-    padding-top: 3%;
+  
     line-height: 23px;
     color: #505D68;
-    margin-left: 60%;
+    margin-left: 30%;
 	display: inline-block;}
+.fax-email
+	{
+	display: flex;
+justify-content: space-between;}
 /**footer**/
 .end
 	{background-color: #F0F0F0;
-	height:95px;}
+	height: 93px;
+	justify-content: space-between;}
 .end h6 
 	{display: inline-block;
 	font-family: "Open Sans Light", sans-serif;
-	font-size: 16px;
-	padding: 40px 0;}
+	font-size: 16px;}
 .designed
 	{margin-left: 22%;}
 .gmail
-	{margin-left: 62%}
+	{margin-left: 62%;}
 .end h6 a 
 	{text-decoration: none;
 	color: #505D68;}

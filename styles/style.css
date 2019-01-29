@@ -2,25 +2,26 @@
 	{height: 77px;}
 .main-header
 	{width: 100%;
-	background-color: rgba( 36,47,53, 0.8);}
+	background-color: rgba( 36,47,53, 0.8);
+	position: fixed;
+	justify-content: space-between;}
 .main-header .container
 	{display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 	text-transform: uppercase;
-	position: relative;}
+	}
 img.elegant-logo
 	{width: 190px;
 	height: 40px;
-	display: inline-block;
-	margin-right: 1080px;}
+	display: inline-block;}
 .main-header .container nav li
 	{display: inline-block;
 	padding:0 15px;
 	font-family: 'Source Sans Pro Bold',sans-serif;
 	font-size: 15px;}
 .main-header .container nav
-	{position: absolute;
+	{position: fixed;
 	right: 3%;}
 .main-header .container nav li a
 	{text-decoration: none;
@@ -42,11 +43,6 @@ img.elegant-logo
 	font-family: 'Open Sans light',sans-serif;
 	text-transform: uppercase;
 	color: #FFFFFF;}
-.pic-image
-	{position: absolute;
-	top:20%;
-	left:20%;
-	bottom: auto;}
 /**2 section**/
 .who 
 	{text-align: center;
@@ -78,7 +74,8 @@ img.elegant-logo
 	margin-top: 45px;
 	margin-left: 30%;
 	height: 60px;
-	width: 280px;}
+	width: 280px;
+position: relative;}
 .read-more a
 	{text-decoration: none;
 	color: #021725;}
@@ -109,21 +106,23 @@ img.elegant-logo
 {margin: 0.2%;}
 /**3 section**/	
 .we
-	{text-align: center;
-  	padding: 5% 20%;}
+	{padding: 5% 20%;}
+.center
+	{text-align: center;}
 .image-container
 	{display: inline-block;
 	display: flex;
-	justify-content: space-between;}
+	justify-content: space-between; 
+	margin: 30px;}
 .first
 	{width:245px;
-	height:425px;}
+	min-height:425px;}
 .second
 	{width:245px;
-	height:425px;}
+	min-height:425px;}
 .third
 	{width:245px;
-	height:425px;}
+	min-height:425px;}
 .image-container .article-item
 	{display: -webkit-box;display: -ms-flexbox;display: flex;
 	-webkit-box-pack: justify;
@@ -246,93 +245,66 @@ img.elegant-logo
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
 	color: #505D68;}
-.location
+.location-fax
 	{font-family: "Open Sans Semibold", sans-serif;
     font-size: 13px;
-    
     line-height: 23px;
     color: #505D68;
-	
-	display: inline-block;}
-.newyork
-	{font-family: "Open Sans Light", sans-serif;
-    font-size: 19px;
-    line-height: 23px;
-    color: #505D68;
-	
-	display: inline-block;}
-.phone
-	{font-family: "Open Sans Semibold", sans-serif;
-    font-size: 13px;
-   
-    line-height: 23px;
-    color: #505D68;
-	
-	display: inline-block;}
-.phone-nomb
-	{font-family: "Open Sans Light", sans-serif;
-    font-size: 19px;
-    
-    line-height: 23px;
-    color: #505D68;
-	
-	display: inline-block;}
-.location-phone
-	{
+    padding-left: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: inline-block;
 	display: flex;
-justify-content: space-between;}
-.fax
-	{font-family: "Open Sans Semibold", sans-serif;
-    font-size: 13px;
-   
-    line-height: 23px;
-    color: #505D68;
-    
-	display: inline-block;}
-.fax-nomb
+	justify-content: space-between;
+	flex-wrap: wrap;}
+.fax-location
 	{font-family: "Open Sans Light", sans-serif;
     font-size: 19px;
-  
     line-height: 23px;
     color: #505D68;
-   
-	display: inline-block;}
-.email
-	{font-family: "Open Sans Semibold", sans-serif;
-    font-size: 13px;
-    
-    line-height: 23px;
-    color: #505D68;
-    
-	display: inline-block;}
-.email-elegant
-	{font-family: "Open Sans Light", sans-serif;
-    font-size: 19px;
-  
-    line-height: 23px;
-    color: #505D68;
-    margin-left: 30%;
-	display: inline-block;}
-.fax-email
-	{
+    padding-left: 100px;
+	display: inline-block;
 	display: flex;
-justify-content: space-between;}
+	justify-content: space-between;
+	flex-wrap: wrap;}
+.phone-email
+	{font-family: "Open Sans Semibold", sans-serif;
+    font-size: 13px;
+    line-height: 23px;
+    color: #505D68;
+    margin-left: 550px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: inline-block;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;}
+.email-phone
+	{font-family: "Open Sans Light", sans-serif;
+    font-size: 19px;
+    line-height: 23px;
+    color: #505D68;
+    padding-right: 500px;
+  	display: inline-block;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;}
+
+
 /**footer**/
 .end
-	{background-color: #F0F0F0;
-	height: 93px;
-	justify-content: space-between;}
+	{background-color: #F0F0F0;}
 .end h6 
 	{display: inline-block;
+	justify-content: space-between;
+	display: flex;
+	padding: 30px 300px;
 	font-family: "Open Sans Light", sans-serif;
 	font-size: 16px;}
-.designed
-	{margin-left: 22%;}
-.gmail
-	{margin-left: 62%;}
 .end h6 a 
 	{text-decoration: none;
-	color: #505D68;}
+	color: #505D68;
+display: inline-block;}
 /**burger**/
 .main-header .burger
 	{border: 1px solid blue;

@@ -107,11 +107,18 @@ img.elegant-logo
 	-ms-flex-wrap:wrap;
 	flex-wrap: wrap;
 	-webkit-box-sizing:border-box;
-	box-sizing:border-box;}
-.pictures:hover 
-	{color:;}
+	box-sizing:border-box;
+	position: relative;}
+.pictures-hover 
+	{display: none;}
+.pictures-hover:hover 
+	{display: block;
+	position: absolute;
+	top: 0;
+	width: 100%
+	height:100%;}
 .a
-{margin: 0.2%;}
+	{margin: 0.2%;}
 /**3 section**/	
 .we
 	{padding: 5% 20%;}

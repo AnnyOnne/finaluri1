@@ -3,6 +3,7 @@
 .main-header
 	{width: 100%;
 	background-color: rgba( 36,47,53, 0.8);
+	z-index: 9999;
 	position: fixed;
 	justify-content: space-between;}
 .main-header .container
@@ -69,10 +70,12 @@ img.elegant-logo
 	{font-family: "Open Sans", sans-serif;
 	font-size: 14px;
     padding: 2.5%;
-    margin: 8%;
+    margin-top: 8%;
+    width: auto;
     border: 2px solid #021725;
     box-sizing: border-box;
 	height: 55px;
+	display: inline-block;
 	position: relative;
 	text-align: center;
     -webkit-transition: 0.3s;
@@ -100,7 +103,7 @@ img.elegant-logo
     padding-top: 2%;
     line-height: 33px;
     color: #021725;}
-.pictures
+.pictures,.subpictures
 	{display: -webkit-box;display: -ms-flexbox;display: flex;
 	-webkit-box-pack: justify;
 	-ms-flex-pack: justify;
@@ -108,17 +111,27 @@ img.elegant-logo
 	flex-wrap: wrap;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
-	position: relative;}
-.pictures-hover
-	{display: block;}
-.pictures-hover:hover 
-	{position: absolute;
-    top: 0%;
-    width: 100%;
-    height: 100%;
-    }
+	position: relative;
+	width: 100%;}
 .a
-	{margin: 0.2%;}
+	{width: 100%;}
+.pictures-item
+	{display: inline-block;
+	width: calc((100% - 12px) / 4) ;
+	margin: 2px;
+	position: relative;}
+.pictures-item:hover .pictures-hover
+	{display: block;}
+.subpictures .margin-left{margin-left: 0px;}
+.subpictures .margin-right{margin-right: 0px;}
+
+.pictures-hover 
+	{width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 0px;
+	display: none;}
 /**3 section**/	
 .we
 	{padding: 5% 20%;}
@@ -255,6 +268,30 @@ img.elegant-logo
 .read a
 	{text-decoration: none;
 	color: #021725;}
+.blog
+	{font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+    padding: 2.5%;
+    margin-top: 8%;
+    width: auto;
+    border: 2px solid #021725;
+    box-sizing: border-box;
+	height: 55px;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	left: 50%;
+	transform: translateX(-50%);
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;}
+.blog:hover 
+	{background-color: #D4AF37;
+	border: 2px solid:#D4AF37;}
+.blog a
+	{text-decoration: none;
+	color: #021725;}
 /**5 section**/
 .contact 
 	{text-align: center;
@@ -262,13 +299,9 @@ img.elegant-logo
 .last-gray
 	{width:100%;
 	font-family: "Open Sans", sans-serif;
-	background-color: #F9F9F9;
-	width:770px; 
-	height:415px;
-	margin-left: 2.5%;
+	background-color: #F9F9F9; 
 	margin-top: -3%;
-	padding-right: 3%;
-	padding-left: 2%;
+	padding: 7%;
 	-webkit-box-sizing:border-box;
 	box-sizing:border-box;
 	color: #505D68;
@@ -280,8 +313,6 @@ img.elegant-logo
     font-size: 13px;
     line-height: 23px;
     color: #505D68;
-    margin-right: 500px;
-    padding-top: 50px;
     padding-bottom: 30px;
     display: inline-block;}
 .location2
@@ -289,14 +320,14 @@ img.elegant-logo
     font-size: 19px;
     line-height: 23px;
     color: #505D68;
-    padding-right: 500px;
 	display: inline-block;}
 .fax
 	{font-family: "Open Sans Semibold", sans-serif;
     font-size: 13px;
     line-height: 23px;
     color: #505D68;
-    margin-right: 500px;
+    padding-bottom: 30px;
+    padding-top: 50px;
     padding-bottom: 30px;
     display: inline-block;}
 .fax2
@@ -304,36 +335,38 @@ img.elegant-logo
     font-size: 19px;
     line-height: 23px;
     color: #505D68;
-    margin-right: 500px;
     display: inline-block;}
 .phone
 	{font-family: "Open Sans Semibold", sans-serif;
     font-size: 13px;
     line-height: 23px;
     color: #505D68;
-    margin-left: 500px;
+    padding-bottom: 30px;
     display: inline-block;}
 .phone2
 	{font-family: "Open Sans Light", sans-serif;
     font-size: 19px;
     line-height: 23px;
     color: #505D68;
-    margin-left: 500px;
     display: inline-block;}
 .email
 	{font-family: "Open Sans Semibold", sans-serif;
     font-size: 13px;
     line-height: 23px;
     color: #505D68;
-    margin-left: 500px;
+    padding-top: 50px;
+    padding-bottom: 30px;
     display: inline-block;}
 .email2
 	{font-family: "Open Sans Light", sans-serif;
     font-size: 19px;
     line-height: 23px;
     color: #505D68;
-    margin-left: 500px;
     display: inline-block;}
+.location-phone
+	{display: flex;
+	justify-content: space-between;
+	width: 100%;}
 /**footer**/
 .end
 	{background-color: #F0F0F0;

@@ -18,32 +18,35 @@
 <header class="main-header">
 	<div class="container">
 		<img class="elegant-logo" src="images/logo.png" alt="logo">
-			<nav class="main-navigation">
-				<li><a href="#home">home</a></li>
-				<li><a href="#about">about</a></li>
-				<li><a href="#portfolio">portfolio</a></li>
-				<li><a href="#our-team">our team</a></li>
-				<li><a href="#blog">blog</a></li>
-				<li><a href="#contact">contact</a></li>
+  <input type="checkbox" id="menu-toggle"/>
+  <label id="trigger" for="menu-toggle"></label>
+  <label id="burger" for="menu-toggle"></label>
+  
+			<nav class="main-navigation" id="menu">
+				<ul>
+					<li><a href="#home">home</a></li>
+					<li><a href="#about">about</a></li>
+					<li><a href="#portfolio">portfolio</a></li>
+					<li><a href="#our-team">our team</a></li>
+					<li><a href="#blog">blog</a></li>
+					<li><a href="#contact">contact</a></li>
+				</ul>
 			</nav>
-		<div class="burger">
-			<span></span>
-			<span></span>
-			<span></span>
-			<span></span>
-		</div>
 	</div>
 </header>
 <main>
+	<div class="all-banner">
+<!-- 
 	<div class="banner-image" id="home">
 		<img src="images/boy.jpeg" alt=" image of boy">
-	</div>
+	</div> -->
 		<div class="star-image" >
 			<img src="images/varskvlavebi.png" alt="image of stars">
 		</div>
 			<section class="portfolio">
 				<p class="portfolio-text"> Say Haloa to your Portfolio</p>
 			</section>
+	</div>		
 	<section class="who" id="about">
 		<h1 class="header">Who we Are</h1>
 			<p class="second-header">Tell The World About Yourself</p>
@@ -108,7 +111,7 @@
 					<p class="long-text">Lorem ipsum dolor sit amet, conse tetuer adi piscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
 				</article>
 			</div>
-			<div class="second">
+			<div class="first">
 				<article class="article-item">
 					<img src="images/o.png" alt="image man">
 					<h4 class="article-text">Designer</h4>
@@ -116,7 +119,7 @@
 					<p class="long-text">Lorem ipsum dolor sit amet, conse tetuer adi piscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
 				</article>
 			</div>
-			<div class="third">
+			<div class="first">
 				<article class="article-item">
 					<img src="images/y.png" alt="image of boy">
 					<h4 class="article-text">Developer</h4>

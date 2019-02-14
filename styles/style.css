@@ -225,7 +225,7 @@ img.elegant-logo
     line-height: 33px;
     color: #505D68;} 
 .notebook
-	{width:380px;
+	{width:50%;
 	height:390px;}
 .september
 	{color: #505D68;
@@ -397,7 +397,7 @@ img.elegant-logo
 	width: 20px;
 	margin:5px;
 	display: block;
-	background-color: white;}
+	background-color: white;}	
 /**media**/
 @media (max-width: 1200px)
 {.we
@@ -420,8 +420,7 @@ img.elegant-logo
 	{font-size: 60px;}}
 @media (max-width: 910px)
 {.portfolio-text
-	{font-size: 50px;
-	}
+	{font-size: 50px;}
 .pictures
 	{flex-direction: column; 
 	margin-top:2%;}
@@ -431,6 +430,18 @@ img.elegant-logo
 	align-items: center;
 	padding-right: 20%;
 	padding-left: 20%;}
+.notebook
+	{width:100%;
+	height:390px;}
+.notebook-gray
+	{flex-direction: column; 
+	margin-top:2%;
+	align-items: center;}
+.gray
+	{padding: 5% 5%;
+	margin-bottom: 5%;
+	width:100%;
+	height:390px;}
 .contact
 	{flex-direction: column; 
 	align-items: center;}
@@ -555,10 +566,18 @@ img.elegant-logo
 	padding-left: 20%;}
 .portfolio-text
 	{font-size: 40px;}
+.notebook
+	{width:100%;
+	height:390px;}
 .notebook-gray
 	{flex-direction: column; 
 	margin-top:2%;
 	align-items: center;}
+.gray
+	{padding: 5% 5%;
+	margin-bottom: 5%;
+	width:100%;
+	height:390px;}
 .contact
 	{flex-direction: column; 
 	align-items: center;}

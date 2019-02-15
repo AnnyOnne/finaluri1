@@ -38,7 +38,8 @@ img.elegant-logo
    	overflow: hidden;
    	background-image: url("../images/boy.jpeg");
    	background-position: center;
-   	position: relative;}
+   	position: relative;
+   	background-repeat: no-repeat;}
 .banner-image img
 	{width: 100%;}
 .star-image img

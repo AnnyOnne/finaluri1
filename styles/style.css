@@ -542,8 +542,8 @@ img.elegant-logo
 	display: block;}
 #menu ul
 	{position: absolute;
-	top: 45%;
-	width:100%;
+	top: 44%;
+	width:100%; 
 	transform: translateY(-50%);
 	line-height: }
 #menu-toggle:checked + #trigger + #burger + #menu 

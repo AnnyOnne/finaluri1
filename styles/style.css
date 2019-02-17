@@ -483,7 +483,7 @@ img.elegant-logo
         height: 3000px;}}
 #trigger, #burger, #burger:before, #burger:after 
 	{position: absolute;
-    top: 25px;
+    top: 14px;
     right: 25px;
     background: #03A9F4;
     width: 30px;
@@ -542,7 +542,7 @@ img.elegant-logo
 	display: block;}
 #menu ul
 	{position: absolute;
-	top: 35%;
+	top: 45%;
 	width:100%;
 	transform: translateY(-50%);
 	line-height: }
